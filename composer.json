@@ -1,0 +1,11 @@
+{
+    "name": "kms-21-904/kms21learnphp",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/var-dumper": "^6.2"
+    }
+}

@@ -4,11 +4,7 @@ use App\Controllers\ArticleController;
 use App\Router;
 
 session_start();
-
-spl_autoload_register(function($class){
-    $class = substr($class, strlen('App\\'));
-    require_once "src/$class.php";
-});
+require __DIR__ .  '/../vendor/autoload.php';
 require 'helpers.php';
 require 'routes.php';
 
